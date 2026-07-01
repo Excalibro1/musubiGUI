@@ -1,16 +1,42 @@
+# Python
 __pycache__/
-.venv
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+.venv/
 venv/
+.env
+
+# Local Musubi checkout / virtualenv
+musubi-tuner/
+
+# User/local settings
+krea2_settings.json
+krea2_settings.env
+configs/dataset_krea2.toml
+configs/sample_prompts.txt
+
+# Training data and generated artifacts
+train_images/
+cache/
+models/
+downloads/
+output/
+samples/
 logs/
-uv.lock
-main.exp
-main.lib
-main.obj
-CLAUDE.md
-GEMINI.md
-.claude/
-.gemini/
-AGENTS.md
-.vscode/settings.json
-.mcp.json
-references/
+
+# Checkpoints / large ML files
+*.safetensors
+*.ckpt
+*.pt
+*.pth
+*.bin
+*.onnx
+*.gguf
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
