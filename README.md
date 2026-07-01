@@ -91,23 +91,3 @@ MusubiGUI/
 └─ musubi-tuner/              # local musubi-tuner checkout, not committed
 ```
 
-## Notes
-
-- Non-Krea2 workflows usually require you to download models manually and point the GUI to them.
-- Workflow auto-discovery is best-effort. Curated workflows are preferred when available.
-- Large local folders and model files are intentionally ignored by git.
-
-## Not committed
-
-```text
-musubi-tuner/
-models/
-train_images/
-cache/
-output/
-samples/
-logs/
-downloads/
-krea2_settings.json
-krea2_settings.env
-```
