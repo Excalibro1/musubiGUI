@@ -91,3 +91,4 @@ MusubiGUI/
 └─ musubi-tuner/              # local musubi-tuner checkout, not committed
 ```
 
+CHATGPTMADETHISNOTME I ONLY TESTED KREA2 I JUST MADE CHATGPT MAKE THIS BECAUSE MY AITOOLKIT WASNT WORKING.
